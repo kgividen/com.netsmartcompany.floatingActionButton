@@ -49,3 +49,14 @@ function onClick(callback) {
 
 // Make the onClick function public
 exports.onClick = onClick;
+exports.hideMe = function () {
+	$.widget.hide();
+	$.circle.hide();
+	$.title.hide();
+};
+
+exports.showMe = function () {
+	$.widget.show();
+	$.circle.show();
+	$.title.show();
+};
