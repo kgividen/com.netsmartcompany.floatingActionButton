@@ -14,6 +14,7 @@ $.addFolderFab.onClick(function(e) {
 $.index.open();
 ```
 **Controller Options**
+
 Hide
 ```javascript
 $.addFolderFab.hideMe();
