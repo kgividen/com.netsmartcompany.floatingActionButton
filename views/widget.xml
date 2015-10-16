@@ -1,0 +1,6 @@
+<Alloy>
+	<View onTouchend="buttonClicked">
+		<View id="circle"/>
+		<Label id="title"/>
+	</View>
+</Alloy>
