@@ -1,6 +1,7 @@
 # com.netsmartcompany.floatingActionButton
 
-A simple Floating Action Button for Titanium Alloy Widget. Based off of http://gitt.io/component/be.k0suke.tifab.
+A simple Floating Action Button for Titanium Alloy Widget. 
+Based off of http://gitt.io/component/be.k0suke.tifab.
 
 ## Usage
 
