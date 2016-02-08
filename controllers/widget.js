@@ -32,6 +32,11 @@ $.widget.applyProperties(widget);
 $.circle.applyProperties(circle);
 $.title.applyProperties(title);
 
+if (args.hidden) {
+	$.widget.hide();
+	$.circle.hide();
+	$.title.hide();	
+}
 // This will hold our callback
 var onClickCallback;
 
@@ -49,6 +54,11 @@ function onClick(callback) {
 
 // Make the onClick function public
 exports.onClick = onClick;
+
+exports.applyProperties = function (props) {
+	$.widget.applyProperties(props);
+};
+
 exports.hideMe = function () {
 	$.widget.hide();
 	$.circle.hide();
